@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  color: lightskyblue;
+}
+
+.header{
+  width: 100%;
+  height: 30px;
+  margin: 20px 0;
+  border-bottom: 1px solid lightskyblue;
+}
+
+.menu{
+  margin: 0 100px;
+  text-decoration: none;
+  color: lightskyblue;
+  display: inline-block;
+}
+
+.inputBox{
+  margin-right: 5px;
+  border: none;
+  border-bottom: 2px solid lightskyblue;
+  margin-bottom: 30px;
+  outline-color: lightskyblue;
+}
+
+.addmemo_btn{
+  width: 70px;
+  height: 23px;
+  background-color: transparent;
+  border: 1px solid lightskyblue;
+}
+
+.likebtn{
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.delbtn{
+  width: 20px;
+  height: 20px;
+  border: 1px solid lightskyblue;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.5s;
+  margin-top: 4px;
+}
+
+.delbtn span{
+  font-size: 13px;
+  margin-left: -1px;
+  margin-top: 1px;
+}
+
+.delbtn:hover{
+  background-color: lightskyblue;
+  transition: all 0.5s;
+}
+
+.memobox{
+  width: 250px;
+  margin: 0 auto;
+  border-bottom: 1px dashed lightskyblue;
+}
